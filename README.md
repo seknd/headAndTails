@@ -1,2 +1,0 @@
-# headAndTails
-trying javascript
