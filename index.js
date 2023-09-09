@@ -26,9 +26,11 @@
 
         
         
-       
+       //local storage
         localStorage.setItem('score',JSON.stringify(score))
 
+
+        //changing HTML
         document.querySelector('.js-got').innerHTML = `You filped coin and got ${res}`
         document.querySelector('.js-res').innerHTML = `Your score is: ${score.heads} Heads and ${score.tails} tails`;
     }
